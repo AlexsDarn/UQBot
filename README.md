@@ -22,3 +22,6 @@ pip install numpy
 pip install tflearn
 
 pip install tensorflow
+
+#Referencias
+https://www.techwithtim.net/tutorials/ai-chatbot/
