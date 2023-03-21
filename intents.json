@@ -20,7 +20,7 @@
      "context_set": ""
     },
     {"tag": "shop",
-     "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+     "patterns": ["Id like to buy something", "whats on the menu", "what do you recommend?", "could i get something to eat"],
      "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
      "context_set": ""
     },
