@@ -13,7 +13,7 @@ Luego se dirige a front/base.html, click derechi y live server
 
 Para agregar un enlace en una respuesta de intents.json,
 utilice este ejemplo:
-<a target='_blank' href='#'>#</a>
+a target='_blank' href='#'>#</a>
 
 references
 https://www.youtube.com/watch?v=a37BL0stIuM
