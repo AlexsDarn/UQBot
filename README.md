@@ -13,9 +13,7 @@ Luego se dirige a front/base.html, click derecho y darle click a live server
 (Si no encuentra la opción, debe entrar descarga la extensión en visual studio code)
 
 Para agregar un enlace en una respuesta de intents.json,
-utilice este ejemplo:
-
-"#<a target='_blank' href='#'>#</a>#"
+utilice la etiqueta a de html y tome de guía las otras preguntas.
 
 references
 https://www.youtube.com/watch?v=a37BL0stIuM
