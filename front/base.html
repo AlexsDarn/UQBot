@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css" />
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chatbot</title>
+
+    <link
+      rel="shortcut icon"
+      href="https://www.uniquindio.edu.co/info/uniquindio/media/bloque2.png"
+      type="image/x-icon"
+    />
+
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light" style="background: #308113">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="https://www.uniquindio.edu.co/info/uniquindio/media/bloque2.png"
+            alt="Logo"
+            width="60"
+            height="70"
+            class="d-inline-block align-text-top"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link" target="_blank" href="https://www.uniquindio.edu.co/estudiantes/">Estudiantes</a>
+            <a class="nav-link" target="_blank" href="https://www.uniquindio.edu.co/aspirantes/">Aspirantes</a>
+            <a class="nav-link" target="_blank" href="https://www.uniquindio.edu.co/docentes/">Profesores</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <br />
+    <br />
+
+    <div class="container">
+      <div class="row justify-content-evenly">
+        <div class="card" style="width: 20rem">
+            <ul class="list-group list-group-flush">
+              <h5 class="list-group-item">Preguntas comunes</h5>
+              <li class="list-group-item">¿Donde puedo mandar una carta?</li>
+              <li class="list-group-item">¿Cuánto cuesta estudiar en la universidad?</li>
+              <li class="list-group-item">¿Qué carreras ofrece la universidad?</li>
+              <li class="list-group-item">¿Valor del semestre?</li>
+              <li class="list-group-item">Quiero solicitar un cupo</li>
+              <li class="list-group-item">¿Qué debo hacer para aplicar a la universidad?</li>
+              <li class="list-group-item">1</li>
+              <li class="list-group-item">2</li>
+              <li class="list-group-item">3</li>
+              <li class="list-group-item">4</li>
+              <li class="list-group-item">5</li>
+            </ul>
+            <div class="card-body">
+              <a class="list-group-item">¿Cuáles son los requisitos para ser admitido en la universidad?</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 20rem">
+            <img src="images/robot.png" class="card-img-top" alt="img-robot" />
+            <div class="card-body">
+              <h5 class="card-title">UQBot</h5>
+              <p class="card-text">
+                  En la actualidad, muchas instituciones educativas están adoptando tecnologías inteligentes para mejorar su eficiencia y brindar una mejor experiencia a sus estudiantes y profesores. Un bot de soporte es una de estas tecnologías que está ganando popularidad en el mundo académico.
+              </p>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="chatbox">
+        <div class="chatbox__support">
+          <div class="chatbox__header">
+            <div class="chatbox__image--header">
+              <img src="images/bot_hover.png" alt="image" />
+            </div>
+            <div class="chatbox__content--header">
+              <h4 class="chatbox__heading--header">UQBot</h4>
+              <p class="chatbox__description--header">
+                Hola, mi nombre es Pacho. ¿En que lo puedo ayudar?
+              </p>
+            </div>
+          </div>
+          <div class="chatbox__messages">
+            <div></div>
+          </div>
+          <div class="chatbox__footer">
+            <input type="text" placeholder="Escriba una pregunta" />
+            <button class="chatbox__send--footer send__button">Enviar</button>
+          </div>
+        </div>
+        <div class="chatbox__button">
+          <button><img src="./images/chatbox-icon.svg" /></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

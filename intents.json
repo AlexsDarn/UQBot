@@ -35,6 +35,36 @@
             "context_set": ""
         },
         {
+            "tag": "agradecimiento",
+            "patterns": [
+                "Muchas gracias",
+                "Gracias",
+                "Se le agradece",
+                "Me sirve",
+                "Listo"
+            ],
+            "responses": [
+                "Un gusto poder ayudar :)",
+                "Un gusto, cualquier otra cosa me puede preguntar :)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "pregunta",
+            "patterns": [
+                "¿Puedo hacerte una pregunta?",
+                "Puedo preguntarle algo?",
+                "Pregunta",
+                "Tengo una pregunta",
+                "una duda"
+            ],
+            "responses": [
+                "¿Cuál es la pregunta?",
+                "Dígame"
+            ],
+            "context_set": ""
+        },
+        {
             "tag": "edad",
             "patterns": [
                 "Cuantos años tiene usted?",
@@ -42,8 +72,7 @@
                 "¿Hace cuanto fué creado?"
             ],
             "responses": [
-                "Fuí creado el 21 de Marzo por Alexio, Potter, El viejo Chicken y Naranjos",
-                "Tengo menos de un año"
+                "Fuí creado el 21 de Marzo por Alexio, Potter, El viejo Chicken y Naranjos, tengo menos de un año"
             ],
             "context_set": ""
         },
@@ -67,7 +96,7 @@
                 "¿Qué programas académicos tienen?"
             ],
             "responses": [
-                "Ofrecemos una amplia variedad de carreras, tales como Administración de Empresas, Ingeniería Civil, Sistemas Computacionales, Electronica, Lenguas Modernas, entre otras. Puede encontrar más información en nuestro sitio web: https://www.uniquindio.edu.co/oferta_academica/"
+                "Ofrecemos una amplia variedad de carreras, tales como Administración de Empresas, Ingeniería Civil, Sistemas Computacionales, Electronica, Lenguas Modernas, entre otras. Puede encontrar más información en nuestro sitio web: <a target='_blank' href='https://www.uniquindio.edu.co/oferta_academica/'>https://www.uniquindio.edu.co/oferta_academica/</a>"
             ],
             "context_set": ""
         },
@@ -78,7 +107,7 @@
                 "¿Qué debo hacer para aplicar a la universidad?"
             ],
             "responses": [
-                "Los requisitos de admisión varían según el programa académico al que desee aplicar. Por ejemplo, pagar el pin, puntaje del icfes, etc. Puede encontrar más detalles en nuestras oficinas de admisiones o en este enlace: https://www.uniquindio.edu.co/posgrados/publicaciones/416/inscripciones-y-admisiones/."
+                "Los requisitos de admisión varían según el programa académico al que desee aplicar. Por ejemplo, pagar el pin, puntaje del icfes, etc. Puede encontrar más detalles en nuestras oficinas de admisiones o en este enlace: <a target='_blank' href='https://www.uniquindio.edu.co/posgrados/publicaciones/416/inscripciones-y-admisiones/'>https://www.uniquindio.edu.co/posgrados/publicaciones/416/inscripciones-y-admisiones/</a>."
             ],
             "context_set": ""
         },
@@ -86,11 +115,24 @@
             "tag": "costos",
             "patterns": [
                 "¿Cuánto cuesta estudiar en la universidad?",
-                "¿Qué opciones de financiamiento están disponibles?",
-                "¿Hay becas disponibles?"
+                "¿Valor del semestre?",
+                "¿Cuanto vale el semestre en la universidad?"
             ],
             "responses": [
-                "Los costos de estudio varían según el programa académico y el tipo de matrícula que desee. Ofrecemos opciones de financiamiento y becas para estudiantes sobresalientes. Puede encontrar más información en nuestro sitio web o en nuestras oficinas de admisiones."
+                "Los costos de estudio varían según el programa académico y el tipo de matrícula que desee. Para más información: <a target='_blank' href='https://www.uniquindio.edu.co/aspirantes/publicaciones/2171/valor-de-matricula/'>https://www.uniquindio.edu.co/aspirantes/publicaciones/2171/valor-de-matricula/</a>"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "chat",
+            "patterns": [
+                "¿Donde puedo mandar una carta?",
+                "¿Donde puedo crear una solicitud?",
+                "Quiero crear una solicitud, donde puedo escribirla",
+                "Quiero solicitar un cupo"
+            ],
+            "responses": [
+                "Para crear una solicitud, puede entrar al CSU: <a target='_blank' href='https://csuuq.uniquindio.edu.co/gcsapp/#!/inicio'>https://csuuq.uniquindio.edu.co/gcsapp/#!/inicio</a>", "Si quiere solicitar un cupo, puede entrar al siguiente enlace: <a target='_blank' href='https://csuuq.uniquindio.edu.co/gcsapp/#!/inicio'>https://csuuq.uniquindio.edu.co/gcsapp/#!/inicio</a>, luego le da a Matrícula Académica y Solicitudes de registro de asignaturas. Lo siguiente depende de su necesidad."
             ],
             "context_set": ""
         }

@@ -1,27 +1,20 @@
 # UQBot
 
-#Se debe utilizar Python 3.6 (También funciona en 3.10, solo es una recomendación)
+Instalación de librerías
 
-Para la instalación, se entró en Jupiter y se abrió un nuevo terminal, en el terminal se ejecutó
-(No es necesario utilizar Jupiter, este comando fué para crear el proyecto)
+pip install Flask torch torchvision nltk
 
+Para ejecutar la aplicación: 
+python3 train.py
+python3 app.py
 
-#conda create -n chatbot python=3.6
+Luego se dirige a front/base.html, click derechi y live server 
+(Si no encuentra la opción, debe entrar descarga la extensión en visual studio code)
 
-Para crear un proyecto en esta versión ya que para la librería es la más compatible
+Para agregar un enlace en una respuesta de intents.json,
+utilice este ejemplo:
+<a target='_blank' href='#'>#</a>
 
-
-Instalar las librerias en python
-
-pip install nltk
-
-pip install numpy
-
-pip install tflearn
-
-pip install tensorflow
-
-Al ejecutar el proyecto, se generan unos archivos. Si va a cambiar las preguntas del json, deberá borrar esos archivos para volver a ejecutar el código.
-
-#Referencias
-https://www.techwithtim.net/tutorials/ai-chatbot/
+references
+https://www.youtube.com/watch?v=a37BL0stIuM
+https://github.com/patrickloeber/chatbot-deployment
